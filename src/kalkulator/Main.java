@@ -17,6 +17,11 @@ public class Main {
 				System.out.println("Unos nije dobar");
 				continue;
 			}
+			
+			int x = Integer.parseInt(str_parts[0]);
+			int y = Integer.parseInt(str_parts[2]);
+			System.out.println(x + y);
+					
 		} while(!str.equals("kraj"));
 		
 	}
