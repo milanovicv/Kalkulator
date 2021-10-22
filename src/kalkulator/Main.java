@@ -11,7 +11,14 @@ public class Main {
 		
 		do {
 			str = scanner.nextLine();
+			String[] str_parts = str.split(" ");
+			
+			if (str_parts.length != 3) {
+				System.out.println("Unos nije dobar");
+				continue;
+			}
 		} while(!str.equals("kraj"));
+		
 	}
 
 }
