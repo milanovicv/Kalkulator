@@ -8,8 +8,10 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		String str;
-		str = scanner.nextLine();
-		System.out.println(str);
+		
+		do {
+			str = scanner.nextLine();
+		} while(!str.equals("kraj"));
 	}
 
 }
