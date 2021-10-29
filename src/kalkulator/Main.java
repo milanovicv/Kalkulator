@@ -25,12 +25,12 @@ public class Main {
 
 			if(str_parts[1].equals("+")) {
 				addition(x , y);
-			}
-			if(str_parts[1].equals("-")) {
+			} else if (str_parts[1].equals("-")) {
 				subtraction(x, y);
 			} else if (str_parts[1].equals("*")) {
-				//TODO
+				multiplication(x, y);
 			}
+			
 					
 		} while(!str.equals("kraj"));
 		
@@ -42,5 +42,9 @@ public class Main {
 
 	public static void addition(int x, int y) {
 		System.out.println(x + y);
+	}
+	
+	public static void multiplication(int x, int y) {
+		System.out.println(x * y);
 	}
 }
