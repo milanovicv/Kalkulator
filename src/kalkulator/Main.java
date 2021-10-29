@@ -14,7 +14,8 @@ public class Main {
 			String[] str_parts = str.split(" ");
 			
 			if (str_parts.length != 3) {
-				System.out.println("Unos nije dobar");
+				if(!str.equals("kraj"))
+					System.out.println("Unos nije dobar");
 				continue;
 			}
 			
