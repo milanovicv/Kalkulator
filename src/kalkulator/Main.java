@@ -22,8 +22,12 @@ public class Main {
 			int x = Integer.parseInt(str_parts[0]);
 			int y = Integer.parseInt(str_parts[2]);
 			
+
 			if(str_parts[1].equals("+")) {
 				addition(x , y);
+			}
+			if(str_parts[1].equals("-")) {
+				subtraction(x, y);
 			}
 					
 		} while(!str.equals("kraj"));
