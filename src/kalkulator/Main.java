@@ -23,11 +23,18 @@ public class Main {
 			int y = Integer.parseInt(str_parts[2]);
 			
 			if(str_parts[1].equals("+")) {
-				System.out.println(x + y);
+				addition(x , y);
 			}
 					
 		} while(!str.equals("kraj"));
 		
 	}
+	
+	public static void subtraction(int x, int y) {
+		System.out.println(x - y);
+	}
 
+	public static void addition(int x, int y) {
+		System.out.println(x + y);
+	}
 }
