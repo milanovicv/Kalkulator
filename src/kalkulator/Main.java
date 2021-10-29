@@ -28,6 +28,8 @@ public class Main {
 			}
 			if(str_parts[1].equals("-")) {
 				subtraction(x, y);
+			} else if (str_parts[1].equals("*")) {
+				//TODO
 			}
 					
 		} while(!str.equals("kraj"));
