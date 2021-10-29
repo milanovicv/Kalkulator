@@ -22,12 +22,16 @@ public class Main {
 			int x = Integer.parseInt(str_parts[0]);
 			int y = Integer.parseInt(str_parts[2]);
 			
-			if(str_parts[1].equals("+")) {
-				System.out.println(x + y);
+			if(str_parts[1].equals("-")) {
+				subtraction(x, y);
 			}
 					
 		} while(!str.equals("kraj"));
 		
+	}
+	
+	public static void subtraction(int x, int y) {
+		System.out.println(x - y);
 	}
 
 }
